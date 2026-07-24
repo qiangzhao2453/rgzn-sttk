@@ -36,7 +36,7 @@ v3.0：增加错题统计+解析显示+UI优化，达到可用状态
 🛠️ 技术栈
 
 前端：HTML + CSS + JavaScript
-数据：JSON格式题库
+数据：内联JSON格式题库
 部署：GitHub Pages
 开发方式：自主开发 + AI辅助调试
 
@@ -49,12 +49,13 @@ Clone本仓库
 📁 文件结构
 
 plaintext
-
+1
+2
+3
+4
 rgzn-sttk/
-├── index.html          # 主页面
-├── questions.js        # 300道题库数据
-├── app.js              # 答题逻辑
-└── style.css           # 样式文件
+├── index.html          # 主页面（包含HTML/CSS/JS/题库数据，自包含）
+└── README.md           # 项目说明
 
 
 
